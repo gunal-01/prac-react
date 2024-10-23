@@ -1,3 +1,6 @@
+* {
+  background-color: rgb(71, 71, 71);
+}
 /* App container styling */
 .age {
   text-align: center;
@@ -12,6 +15,7 @@
   padding: 10px;
   position: absolute;
   left: 25%;
+  background-color: blue;
 }
 
 .ageVerification {
@@ -21,6 +25,7 @@
   border-radius: 10px;
 }
 
+
 /* Flexbox container for the form */
 .form-container {
   display: flex;
@@ -29,6 +34,7 @@
   align-items: center; /* Center horizontally */
   gap: 20px; /* Space between buttons */
   margin-top: 20px;
+  background-color: grey;
 }
 
 /* Styling the buttons */
